@@ -1,8 +1,8 @@
 name = 'Yulia'
-print(name)
+print('Меня зовут', name)
 age = 19
-print(age)
-age = 22
-print(age)
-is_student = bool(str)
-print(is_student)
+print('Мне', age)
+age = age + 2
+print('но через 2 года мне', age)
+is_student = True
+print('Я студент? это', is_student)
