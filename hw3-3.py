@@ -1,6 +1,3 @@
-list_nom = (382763, 991873, 993100, 2309109)
-
-
 def test(*args):
     print(args)
 
