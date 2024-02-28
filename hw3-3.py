@@ -1,11 +1,12 @@
 list_nom = (382763, 991873, 993100, 2309109)
 
 
-def test(nom=374278, word='добавь в', spisok=list_nom):
-    print(nom, word, spisok)
+def test(*args):
+    print(args)
 
 
-test()
+test('lion', 'rat', 'dog', 'monkey')
+
 
 
 def factorial(n):
